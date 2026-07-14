@@ -7,26 +7,26 @@
 class Workflowfiesta < Formula
   desc "Terminal interface for WorkflowFiesta AI agents"
   homepage "https://github.com/fiestatools/workflowfiesta-cli"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.2.1/workflowfiesta-darwin-arm64-v0.2.1.tar.gz"
-      sha256 "2c9f3d3ca2cf2d12034fe85e3d2e7a63d4cf8fd2784d4339ee0c6e47bddb56e6"
+      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.3.0/workflowfiesta-darwin-arm64-v0.3.0.tar.gz"
+      sha256 "f6c6201f28ed950045c8f8abb0ac7a0d5de4667cab412c720792271ae12aac1d"
     else
-      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.2.1/workflowfiesta-darwin-x64-v0.2.1.tar.gz"
-      sha256 "245f0d1668f91fe8262f0386a29586c70002580d0c8044c41bdedc493b4bdb88"
+      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.3.0/workflowfiesta-darwin-x64-v0.3.0.tar.gz"
+      sha256 "491f24c36c4ffae3d0c4854aa13237b6d5af29c876cb5ff04ba381ea152ae5fd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.2.1/workflowfiesta-linux-arm64-v0.2.1.tar.gz"
-      sha256 "e876a12c9109e37e2f0f27aea29dae6fe63a4b5f7fc1e6129b827c17a9937cf7"
+      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.3.0/workflowfiesta-linux-arm64-v0.3.0.tar.gz"
+      sha256 "110c70fdf171f32c7ee41807dc95da1147cc40ea49d35f81f92533d4159204f7"
     else
-      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.2.1/workflowfiesta-linux-x64-v0.2.1.tar.gz"
-      sha256 "923421cc446f66ad44d5e824de78ec740560a01a296ede8014ec2cb39aff8775"
+      url "https://github.com/fiestatools/workflowfiesta-cli/releases/download/v0.3.0/workflowfiesta-linux-x64-v0.3.0.tar.gz"
+      sha256 "9c8c56a64ffc268c4fd8361d91f4f893766bea511bbece2cac2a5940cf8deafb"
     end
   end
 
